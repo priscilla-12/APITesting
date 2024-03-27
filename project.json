@@ -1,0 +1,84 @@
+{
+  "name": "APITestingProject",
+  "projectId": "46344402-9063-4d04-b54c-9fd6285de845",
+  "description": "New Test Automation Framework",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Database.Activities": "[1.7.1]",
+    "UiPath.Excel.Activities": "[2.23.2-preview]",
+    "UiPath.GSuite.Activities": "[2.6.0-preview]",
+    "UiPath.System.Activities": "[23.4.2]",
+    "UiPath.Testing.Activities": "[23.4.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.5]",
+    "UiPath.WebAPI.Activities": "[1.19.0-preview]"
+  },
+  "webServices": [
+    {
+      "namespace": "uibankapi",
+      "serviceDocument": "Services\\uibankapi.json",
+      "webDocumentUri": "https://uibank-api.uipath.com/explorer/swagger.json",
+      "uniqueReference": "xnSgS891Zf9n8YYWpfd/YYk7JSIIGL3EceiiKnOHPOs="
+    }
+  ],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.2.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": false,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "ExecutionTemplate",
+        "fileName": ".templates\\TestFramework.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "525790bb-db5c-4b92-875c-d3b56154f113",
+        "executionTemplatePath": ".templates\\TestFramework.xaml",
+        "testCaseType": "TestCase",
+        "executionTemplateType": "Local",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "768c1c02-fed9-4bfa-8bbe-9a051a2d0e8b",
+        "dataVariationFilePath": ".variations\\RequestData_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "API Swagger.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
